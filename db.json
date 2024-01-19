@@ -1,0 +1,422 @@
+{
+    "watches": [
+    {
+      "image": "img1.jpg",
+      "id": 1,
+      "title": "Black Dial Watch For Guys",
+      "type": "mens",
+      "newPrice": "$578", 
+      "oldPrice": "$600",
+      "smartType":"all"
+    },
+    {
+      "image": "img2.jpg",
+      "id": 2,
+      "title": "Tick Tock Quartz Multifunction Black Dial Metal Strap Watch for Guys",
+      "type": "mens",
+      "newPrice": "$628", 
+      "oldPrice": "$700",
+      "smartType":"all"
+    },
+    {
+      "image": "img3.jpg",
+      "id": 3,
+      "title": "TUrban Camo Black Dial Watch",
+      "type": "girls",
+      "newPrice": "$267", 
+      "oldPrice": "$400",
+      "smartType":"all"
+    }, 
+    {
+      "image": "img4.jpg",
+      "id": 4,
+      "title": "Quartz Analog White Dial Leather Strap Watch for Guys",
+      "type": "girls",
+      "newPrice": "$235", 
+      "oldPrice": "$300",
+      "smartType":"all"
+    }, 
+    {
+      "image": "img5.jpg",
+      "id": 5,
+      "title": " Quartz Analog Black Dial Black Stainless Steel Strap Watch for Guys",
+      "type": "unisex",
+      "newPrice": "$267", 
+      "oldPrice": "$350",
+      "smartType":"all"
+    }, 
+    {
+      "image": "img6.jpg",
+      "id": 6,
+      "title": " Urban Camo Black Dial Watch for Guys",
+      "type": "girls",
+      "newPrice": "$248", 
+      "oldPrice": "$320",
+      "smartType":"all"
+    }, 
+    {
+      "image": "img7.jpg",
+      "id": 7,
+      "title": "Vyb by  Quartz Analog Pink Dial Metal Strap Watch for Girls",
+      "type": "mens",
+      "newPrice": "$260", 
+      "oldPrice": "$320",
+      "smartType":"all"
+    },
+    {
+      "image": "img8.jpg",
+      "id": 8,
+      "title": " Vivid Pro Smart dial Silicone Strap Watch for Unisex",
+      "type": "mens",
+      "newPrice": "$229", 
+      "oldPrice": "$370",
+      "smartType":"all"
+    }, {
+      "image": "img9.jpg",
+      "id": 9,
+      "title": "New  Smartwatch Reflex Beat Plus with 4.27 cm UltraVU Display SpO2 Monitor with Music & Camera Control",
+      "type": "mens",
+      "newPrice": "$280", 
+      "oldPrice": "$470",
+      "smartType":"all"
+    }, {
+      "image": "img10.jpg",
+      "id": 10,
+      "title": " Reflex Invoke Smartwatch Black: BT Calling, Advanced Chipset, Breathing Rate, IP68",
+      "type": "unisex",
+      "newPrice": "$276", 
+      "oldPrice": "$400",
+      "smartType":"all"
+    }, {
+      "image": "img11.jpg",
+      "id": 11,
+      "title": " Kruz+ 1.91 Inch Super HD Display with Functional Crown and Auto Multisport Recognition Smart Watch for Unisex",
+      "type": "unisex",
+      "newPrice": "$26", 
+      "oldPrice": "$100",
+      "smartType":"all"
+    }, {
+      "image": "img12.jpg",
+      "id": 12,
+      "title": " Reflex Play: Compact Health & Fitness Smartwatch",
+      "type": "girls",
+      "newPrice": "$67", 
+      "oldPrice": "$800",
+      "smartType":"all"
+    }, {
+      "image": "img13.jpg",
+      "id": 13,
+      "title": "Reflex Horizon Black: UltraVU Curve Display & Alexa-Enabled Smartwatch",
+      "type": "unisex",
+      "newPrice": "$167", 
+      "oldPrice": "$390",
+      "smartType":"all"
+    }, {
+      "image": "img14.jpg",
+      "id": 14,
+      "title": "Fastrack Reflex Vox Digital Dial Unisex Watch With Silicone Strap",
+      "type": "unisex",
+      "newPrice": "$100", 
+      "oldPrice": "$430",
+      "smartType":"all"
+    }, {
+      "image": "img15.jpg",
+      "id": 15,
+      "title": "Vyb by  Quartz Analog Rose Gold Dial Stainless Steel Strap Watch for Girls",
+      "type": "girls",
+      "newPrice": "$101", 
+      "oldPrice": "$200",
+      "smartType":"all"
+    }, 
+    {
+      "image": "img16.jpg",
+      "id": 16,
+      "title": "Vyb by  Quartz Analog Blue Dial Stainless Steel Strap Watch for Girls",
+      "type": "girls",
+      "newPrice": "$150", 
+      "oldPrice": "$250",
+      "smartType":"all"
+    },
+    {
+      "image": "img17.jpg",
+      "id": 17,
+      "title": "Vyb by  Quartz Analog Purple Dial Stainless Steel Strap Watch for Girls",
+      "type": "girls",
+      "newPrice": "$200", 
+      "oldPrice": "$300",
+      "smartType":"all"
+    },
+    {
+      "image": "pimg18.jpg",
+      "id": 18,
+      "title": "Phantom with 1.85' Super HD Display Functional Crown BT Calling Premium Black Solar Metal Smartwatch for Unisex",
+      "type": "unisex",
+      "newPrice": "$300", 
+      "oldPrice": "$350",
+      "smartType":"power"
+    }, 
+    {
+      "image": "pimg19.jpg",
+      "id": 19,
+      "title": " Phantom with 1.85' Super HD Display Functional Crown BT Calling Premium Rose Gold Solar Metal Smartwatch for Unisex",
+      "type": "girls",
+      "newPrice": "$350", 
+      "oldPrice": "$400",
+      "smartType":"power"
+    }, 
+    {
+      "image": "pimg20.jpg",
+      "id": 20,
+      "title": "Super HD Display Functional Crown BT Calling Premium Rose Gold with Black Solar Metal Smartwatch",
+      "type": "girls",
+      "newPrice": "$400", 
+      "oldPrice": "$450",
+      "smartType":"power"
+    }, 
+    {
+      "image": "aimg21.jpg",
+      "id": 21,
+      "title": "UltraVU HD Display and Functional Crown Rugged Smartwatch with Auto Multisport Recognition",
+      "type": "mens",
+      "newPrice": "$450", 
+      "oldPrice": "$500",
+      "smartType":"active"
+    }, 
+    {
+      "image": "aimg22.jpg",
+      "id": 22,
+      "title": "UltraVU HD Display and Functional Crown Rugged Smartwatch with AI Coach",
+      "type": "mens",
+      "newPrice": "$500", 
+      "oldPrice": "$550",
+      "smartType":"active"
+    },
+    {
+      "image": "aimg23.jpg",
+      "id": 23,
+      "title": "Active Pro with 4.69 cm AMOLED Display and AOD, Functional Crown, BT Calling Rugged Smartwatch with Black Strap",
+      "type": "mens",
+      "newPrice": "$550", 
+      "oldPrice": "$600",
+      "smartType":"active"
+    }
+    ],
+    "sales":[
+      {
+        "image": "bimg1.jpg",
+        "id": 1,
+        "title": "Reflex Play+ Black: Intuitive Health & BT Calling Smartwatch",
+        "type": "unisex",
+        "newPrice": "$578", 
+        "oldPrice": "$600",
+        "smartType":"best seller"
+      },
+      {
+        "image": "bimg2.jpg",
+        "id": 2,
+        "title": "New Smartwatch Reflex Beat Plus with 4.27 cm UltraVU Display SpO2 Monitor with Music & Camera Control",
+        "type": "unisex",
+        "newPrice": "$600", 
+        "oldPrice": "$650",
+        "smartType":"best seller"
+      },
+      {
+        "image": "bim3.jpg",
+        "id": 3,
+        "title": "Vyb by Quartz Analog Rose Gold Dial Stainless Steel Strap Watch for Girls",
+        "type": "girls",
+        "newPrice": "$650", 
+        "oldPrice": "$700",
+        "smartType":"best seller"
+      },
+      {
+        "image": "bimg4.jpg",
+        "id": 4,
+        "title": "Invoke Pro Smartwatch Black - Enhanced Calling, Split-Screen Navigation, Water-Resistant",
+        "type": "unisex",
+        "newPrice": "$750", 
+        "oldPrice": "$800",
+        "smartType":"best seller"
+      },
+      {
+        "image": "bimg5.jpg",
+        "id": 5,
+        "title": "Quartz Analog Black Dial Black Stainless Steel Strap Watch for Guys",
+        "type": "mens",
+        "newPrice": "$800", 
+        "oldPrice": "$850",
+        "smartType":"best seller"
+      },
+      {
+        "image": "bimg6.jpg",
+        "id": 6,
+        "title": "Reflex Play Plus- Smart Watch With Aqua Blue Strap, Amoled Display, Period Tracker, & BT Calling",
+        "type": "unisex",
+        "newPrice": "$850", 
+        "oldPrice": "$900",
+        "smartType":"best seller"
+      },
+      {
+        "image": "bimg7.jpg",
+        "id": 7,
+        "title": "Reflex Vox Digital Dial Unisex Watch With Silicone Strap",
+        "type": "unisex",
+        "newPrice": "$900", 
+        "oldPrice": "$950",
+        "smartType":"best seller"
+      },
+      {
+        "image": "bimg8.jpg",
+        "id": 8,
+        "title": "Quartz Analog Black Dial Silicone Strap Watch for Unisex",
+        "type": "unisex",
+        "newPrice": "$950", 
+        "oldPrice": "$1000",
+        "smartType":"best seller"
+      },
+      {
+        "image": "bimg9.jpg",
+        "id": 9,
+        "title": "Vyb by Quartz Analog Green Dial Stainless Steel Strap Watch for Girls",
+        "type": "girls",
+        "newPrice": "$500", 
+        "oldPrice": "$550",
+        "smartType":"best seller"
+      },
+      {
+        "image": "bimg10.jpg",
+        "id": 10,
+        "title": "Reflex Kruz Black 1.8' Smartwatch with BT Calling and Sports Modes",
+        "type": "unisex",
+        "newPrice": "$550", 
+        "oldPrice": "$600",
+        "smartType":"best seller"
+      },
+      {
+        "image": "nimg1.jpg",
+        "id": 11,
+        "title": "Fastfit Quartz Analog Grey Dial Silicone Strap Unisex Watch",
+        "type": "unisex",
+        "newPrice": "$578", 
+        "oldPrice": "$600",
+        "smartType":"new arrival"
+      },
+      {
+        "image": "nimg2.jpg",
+        "id": 12,
+        "title": "Vyb by Quartz Analog Purple Dial Stainless Steel Strap Watch for Girls",
+        "type": "girls",
+        "newPrice": "$500", 
+        "oldPrice": "$600",
+        "smartType":"new arrival"
+      },
+      {
+        "image": "nimg3.jpg",
+        "id": 13,
+        "title": "Vyb by Quartz Analog Rose Gold Dial Metal Strap Watch for Girls",
+        "type": "girls",
+        "newPrice": "$200", 
+        "oldPrice": "$300",
+        "smartType":"new arrival"
+      },
+      {
+        "image": "nimg4.jpg",
+        "id": 14,
+        "title": "Varsity Quartz Analog Grey Dial Stainless Steel Strap Watch for Girls",
+        "type": "girls",
+        "newPrice": "$300", 
+        "oldPrice": "$400",
+        "smartType":"new arrival"
+      },
+      {
+        "image": "nimg5.jpg",
+        "id": 15,
+        "title": "Reflex Vox Digital Dial Unisex Watch With Silicone Strap",
+        "type": "unisex",
+        "newPrice": "$400", 
+        "oldPrice": "$500",
+        "smartType":"new arrival"
+      },
+      {
+        "image": "nimg6.jpg",
+        "id": 16,
+        "title": "Quartz Analog Blue Dial Leather Strap Watch for Guys",
+        "type": "mens",
+        "newPrice": "$500", 
+        "oldPrice": "$600",
+        "smartType":"new arrival"
+      },
+      {
+        "image": "nimg7.jpg",
+        "id": 17,
+        "title": "Reflex Smart Watch with Silicone Blue Strap with Ultra UV Display, Health Suite, & Aluminium Body",
+        "type": "unisex",
+        "newPrice": "$600", 
+        "oldPrice": "$700",
+        "smartType":"new arrival"
+      },
+      {
+        "image": "nimg8.jpg",
+        "id": 18,
+        "title": "Tees Quartz Analog Pink Dial Silicone Strap Watch for Girls",
+        "type": "girls",
+        "newPrice": "$700", 
+        "oldPrice": "$800",
+        "smartType":"new arrival"
+      },
+      {
+        "image": "nimg9.jpg",
+        "id": 19,
+        "title": "Unisex Arcade cyberpunk Watch: Charcoal Hues with Aqua Accent",
+        "type": "unisex",
+        "newPrice": "$500", 
+        "oldPrice": "$600",
+        "smartType":"new arrival"
+      },
+      {
+        "image": "nimg10.jpg",
+        "id": 20,
+        "title": "Vyb by Quartz Analog Rose Gold Dial Stainless Steel Strap Watch for Girls",
+        "type": "mens",
+        "newPrice": "$578", 
+        "oldPrice": "$600",
+        "smartType":"new arrival"
+      },
+      {
+        "image": "nimg11.jpg",
+        "id": 21,
+        "title": "Pulse Quartz Analog Brown Dial Stainless Steel Strap Watch for Girls",
+        "type": "girls",
+        "newPrice": "$888", 
+        "oldPrice": "$999",
+        "smartType":"new arrival"
+      },
+      {
+        "image": "nimg12.jpg",
+        "id": 22,
+        "title": "Tees Quartz Analog Brown Dial Silicone Strap Watch for Guys",
+        "type": "mens",
+        "newPrice": "$777", 
+        "oldPrice": "$888",
+        "smartType":"new arrival"
+      },
+      {
+        "image": "nimg13.jpg",
+        "id": 23,
+        "title": "Quartz Analog White Dial PU Strap Watch for Guys",
+        "type": "mens",
+        "newPrice": "$1000", 
+        "oldPrice": "$1200",
+        "smartType":"new arrival"
+      },
+      {
+        "image": "nimg14.jpg",
+        "id": 24,
+        "title": "Space Rover Image: Embrace the Full Picture Unisex black dial Watch",
+        "type": "mens",
+        "newPrice": "$5000", 
+        "oldPrice": "$6000",
+        "smartType":"new arrival"
+      }
+    ]
+  }

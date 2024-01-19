@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+a {
+    color: #000;
+}
+
+.navbar-container .menu a {
+    color: #000;
+    font-weight: bold;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+}
+
+.logo p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 4.2rem;
+}
+
+.menu ul,
+.icons ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul li,
+.icons ul li {
+    padding: 0 1.2rem;
+}
+
+#menubar {
+    display: none;
+}
+
+#menuhide {
+    display: none;
+}
+
+.menu ul li .submenus {
+    display: none;
+}
+
+.watchMenu,
+.smartSubmenu {
+    position: relative;
+}
+
+.menu .submenus li:first-child {
+    padding: 0.7rem 1.2rem 0 1.2rem;
+}
+
+.menu .submenus li {
+    padding: 0.5rem 1.2rem 0 1.2rem;
+}
+
+.watchMenu:hover .submenus {
+    text-align: center;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.smartSubmenu:hover .submenus {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    left: 21%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.salesSubmenu {
+    position: relative;
+}
+
+.salesSubmenu:hover .submenus {
+    display: block;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    left: -30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .salesSubmenu li:first-child {
+    padding: 0.7rem 1.2rem 0 1.2rem;
+}
+
+.menu .salesSubmenu li {
+    padding: 0.5rem 1.2rem 0 1.2rem;
+}
+
+.salesSubmenu .submenus {
+    width: 130px;
+}
+
+.moreSubmenu {
+    position: relative;
+}
+
+.moreSubmenu:hover .submenus {
+    display: block;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    left: -40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-container .menu a.active-menu.active {
+    color: #c7972c;
+}
+
+.underline {
+    width: 0%;
+}
+
+.submenus li {
+    width: fit-content;
+}
+
+/* .submenus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.navbar-container .menu a:hover .underline {
+    width: 85%;
+    margin: auto;
+    transition: width .5s;
+    border-bottom: 3px solid #c7972c;
+}
+
+.icons ul {
+    font-size: 1.4rem;
+}
+
+.icons ul li {
+    padding-right: 1.2rem;
+    padding-left: 0;
+}
+
+.icons ul li a.span {
+    position: relative;
+}
+
+.icons ul li a.span span {
+    color: #fff;
+    background-color: #c7972c;
+    width: 16px;
+    position: absolute;
+    top: 0;
+    height: 16px;
+    font-size: .7rem;
+    border-radius: 50%;
+    text-align: center;
+    right: -35%;
+}
+.menu svg{
+    display: none;
+}
+
+/* .navbar-container .menu .watchMenu  a:first-child, .navbar-container .menu .smartSubmenu a:first-child{
+    text-decoration: underline;
+    color: #c7972c;
+} */
+/* .navbar-container .menu .watchMenu  a.active{
+    text-decoration: underline;
+    /* color: #c7972c; */
+@media only screen and (max-width: 400px) {
+    .icons ul {
+        font-size: 1rem;
+    }
+
+    .icons ul li {
+        padding-right: 0.3rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #menubar {
+        display: block;
+    }
+
+    .navbar-container .menu {
+        display: none;
+        background-color: white;
+        z-index: 1;
+        position: absolute;
+        top: 70px;
+        width: 100%;
+    }
+
+    .navbar-container .menu ul {
+        flex-direction: column;
+        justify-content: flex-start;
+        /* align-items: flex-start; */
+    }
+
+    .navbar-container .menu ul li {
+        margin-bottom: 1rem;
+        padding: 0;
+        text-align: center;
+    }
+    .menu svg{
+        display: inline-block;
+    }
+    .smartSubmenu:hover .submenus {
+        position: initial;
+        display: none;
+    }
+    .watchMenu:hover .submenus {
+        position: initial;
+        display: none;
+    }
+    .salesSubmenu:hover .submenus {
+        position: initial;
+        display: none;
+    }
+    .moreSubmenu:hover .submenus {
+        position: initial;
+        display: none;
+    }
+    .navbar-container .menu .submenus li{
+        margin-bottom: .2rem;
+    }
+    /* .navbar-container .menu .active-menu.active + .submenus{
+        display: none;
+    } */
+    .menu .submenus li:first-child {
+        padding: 0;
+    }
+    .menu ul li .submenus.flex{
+        display: flex;
+    }
+    .menu ul li .submenus.none{
+        display: none;
+    }
+    .navbar-container .menu a.active-menu{
+        position: relative;
+    }
+    .navbar-container .menu svg{
+        position: absolute;
+        top: 15%;
+    }
+    .navbar-container .menu a:hover .underline{
+        display: none;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -1,0 +1,74 @@
+.appointment form input,select{
+    padding: 1rem .5rem;
+    font-size: 1rem;
+    display: block;
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid grey;
+
+}
+.appointment div{
+    margin-bottom: 1rem;
+}
+.appointment form div:first-child{
+    margin-top: 1rem;
+}
+.appointment form{
+    border: 1px solid #d8d8d8;
+    box-shadow: 1px 1px 4px #c7972c;
+    padding: .5rem;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.appointment h4{
+    margin: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.appointment form input[type=submit]{
+    width: auto !important;
+    background-color: #c7972c;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+}
+.appointment form input:focus{
+    border: 1px solid #c7972c;
+    outline: none;
+}
+.appointment div{
+    position: relative;
+    width: 100%;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+}
+
+.appointment label{
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
+    left: 7%;
+}
+.appointment form input:focus + label, .appointment form .active input + label{
+    top: -23% !important;
+    background-color: white;
+    transform: translate(0, 0) !important;
+    left: 9% !important;
+    transition: all .5s;
+    color: #c7972c;
+    font-size: 14px;
+}
+select:focus-visible {
+    outline: none;
+    border: 1px solid #c7972c;
+}

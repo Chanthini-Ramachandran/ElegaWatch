@@ -1,0 +1,29 @@
+.checkout-container{
+    display: flex;
+    background-color:whitesmoke;
+    justify-content: space-around;
+    padding: 20px;
+}
+.checkout-box{
+    font-weight:300;
+    color:#7b7979;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.checkout-container svg{
+    font-weight: bold;
+    font-size: 40px;
+    margin-right: 10px;
+}
+@media only screen and (max-width: 600px){
+    .checkout-container{
+        display: grid;
+        grid-template-columns:50% 50%;
+        row-gap: 10px;
+    }
+    .checkout-container .checkout-box{
+        justify-content: flex-start;
+    }
+}

@@ -1,0 +1,101 @@
+.footer-container{
+    display: grid;
+    grid-template-columns: 35% 20% 20% 25%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+.footer-container .side1{
+    text-align: center;
+    padding: 20px;
+}
+.footer-container .side2 ul li a, .footer-container .side3 ul li a, .footer-container .side4 ul li a{
+    font-size: 12px;
+    color: white !important;
+}
+.footer-container .side2 ul li, .footer-container .side3 ul li, .footer-container .side4 ul li{
+    padding-top: 10px;
+}
+.footer-container .side2 .contact{
+    margin-top: 30px;
+}
+.download div{
+    margin-top: 10px;
+}
+.footer-container .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container .media{
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+.footer-container .media svg{
+    margin-right: 1rem;
+}
+.footer-container .logo p{
+    font-size: 1.8rem;
+}
+.copyright{
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 12px;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    padding: 14px;
+}
+.footer-container h4 svg{
+    display: none;
+}
+.footer-container .logo img{
+    filter: saturate(100%) contrast(100%) brightness(100%) invert(100%) sepia(50%) hue-rotate(170deg);
+}
+footer a{
+    color: #fff;
+}
+
+@media only screen and (max-width: 400px) {
+    .footer-container .media {
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .copyright {
+        font-size: 7px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .footer-container h4 svg{
+        display: inline-block !important;
+    }
+    .footer-container{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .d-none, #bService, #bContact, #bPolicies, #bAbout{
+        display: none;
+    }
+    .d-block{
+        display: block !important;
+    }
+    .contact{
+        margin: 0 ;
+    }
+    .side2, .side3, .side4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .side2 div, .side3 div, .side3, .side4 div{
+        margin-top: 1rem !important;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:850px){
+    .footer-container .media {
+        font-size: 1.5rem;
+    }
+}

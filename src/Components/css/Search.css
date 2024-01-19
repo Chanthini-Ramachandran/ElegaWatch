@@ -1,0 +1,35 @@
+.search-container form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+.search-container .search-parent{
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    font-size: 1.5rem;
+    margin: auto;
+}
+.search-container .search-parent svg{
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.search-container .search-parent input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: 1rem;
+    padding-right: 2rem;
+}
+.search-container .search-parent input:focus + .search-icon, .search-container .search-parent.active input + .search-icon{
+    display: none;
+}
+.search-container form input:focus{
+    border: 1px solid lightgray;
+    outline: none;
+}

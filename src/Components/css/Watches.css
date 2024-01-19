@@ -1,0 +1,145 @@
+.watches-container ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2%;
+    /* row-gap: 2%; */
+}
+
+.watches-container {
+    padding: 2rem 3rem;
+    padding-bottom: 0;
+}
+
+.watches-container ul li {
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px #c7972c;
+    margin-bottom: 1.5rem;
+}
+
+.watches-container ul li img {
+    width: 100%;
+    padding: 1rem;
+}
+
+.type {
+    color: grey;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+
+.watch-txt {
+    /* text-align: center; */
+    padding: .2rem 1.4rem;
+    border-top: 1px solid lightgray;
+}
+
+.watches-container ul li p.title {
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    font-weight: bold;
+}
+
+.price {
+    font-weight: 500;
+}
+
+.pricebtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heart {
+    position: absolute;
+    top: 10%;
+    font-size: 1.7rem;
+    right: 10%;
+    height: 35px;
+    background-color: white;
+    border: transparent;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.watch-img-container {
+    position: relative;
+}
+
+.watch-txt {
+    position: relative;
+}
+
+.addbtn {
+    position: absolute;
+    right: 4%;
+    top: 37%;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    background-color: transparent;
+    border: transparent;
+    text-align: center;
+    cursor: pointer;
+    /* color: #c7972c; */
+}
+
+.yellow-icon {
+    color: #c7972c;
+    /* background-color: #c7972c; */
+}
+.watches-container .item-found{
+height: 50vh;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 3rem;
+}
+.watches-container .no-data {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    color: lightgray;
+    transform: translate(-50%, -50%); */
+    /* margin-bottom: 2rem; */
+    text-align: center;
+    color: lightgray;
+    
+}
+
+.watches-container .watch-img-container label {
+    position: absolute;
+    top: 10%;
+    font-size: 10px;
+    left: 2%;
+    background-color: #c7972c;
+    color: #fff;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+    border-top-left-radius: 10px;
+}
+@media only screen and (max-width: 400px) {
+    .watches-container ul {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 0;
+        row-gap: 0;
+        grid-column-gap: 0;;
+        column-gap: 0;
+    }
+    .watches-container {
+        padding: 2rem 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .watches-container ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
